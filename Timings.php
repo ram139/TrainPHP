@@ -136,8 +136,10 @@ include 'query.php';
 			
 		}?>
 		</tbody>
-		
+		<a href="Home.php" class="btn btn-primary">Home</a>
 	</table>
+        
+        
 </body>
 </html>
 

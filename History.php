@@ -97,6 +97,7 @@ include 'query.php';
 	</style>
 </head>
 <body>
+    
 	<h1>Travel History</h1>
 	<table class="data-table">
 		
@@ -136,9 +137,14 @@ include 'query.php';
 			
 			
 		}?>
+                    
+                    
 		</tbody>
-		
+		<a href="Home.php" class="btn btn-primary">Home</a>
 	</table>
+        
+        
+        
 </body>
 </html>
 
