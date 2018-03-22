@@ -29,9 +29,10 @@ $row = mysqli_fetch_array($query);
             </div>
             <div class="panel-body">
               <div class="row">
-                <div class="col-md-3 col-lg-3 " align="center"> <img alt="User Pic" src="avatar-300x300.png" class="img-circle img-responsive"> </div>
                 
-                <!--<div class="col-xs-10 col-sm-10 hidden-md hidden-lg"> <br>
+                <!--<div class="col-md-3 col-lg-3 " align="center"> <img alt="User Pic" src="avatar-300x300.png" class="img-circle img-responsive"> </div>
+                
+                <div class="col-xs-10 col-sm-10 hidden-md hidden-lg"> <br>
                   <dl>
                     <dt>DEPARTMENT:</dt>
                     <dd>Administrator</dd>
@@ -103,17 +104,5 @@ $row = mysqli_fetch_array($query);
                 </div>
               </div>
             </div>
-               <!--  <div class="panel-footer">
-                        <a data-original-title="Broadcast Message" data-toggle="tooltip" type="button" class="btn btn-sm btn-primary"><i class="glyphicon glyphicon-envelope"></i></a>
-                        <span class="pull-right">
-                            <a href="edit.html" data-original-title="Edit this user" data-toggle="tooltip" type="button" class="btn btn-sm btn-warning"><i class="glyphicon glyphicon-edit"></i></a>
-                            <a data-original-title="Remove this user" data-toggle="tooltip" type="button" class="btn btn-sm btn-danger"><i class="glyphicon glyphicon-remove"></i></a>
-                        </span>
-                    </div>
-            
-          </div>
-        </div>
-      </div>
-    </div>-->
-
+               
 

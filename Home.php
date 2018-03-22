@@ -37,13 +37,7 @@ self.close()
         <li><a href='Timings.php'>Routes</a></li>
       </ul>
     </li>
-    <li>
-      <a href="">Getfares</a>
-      <ul class="sub">
-        <li><a href="">ID</a></li>
-        <li><a href="">Routes</a></li>
-      </ul>  
-    </li>
+   
     <li>
       <a href="">Profile</a>
       <ul class="sub">
