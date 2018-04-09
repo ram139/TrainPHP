@@ -79,6 +79,7 @@ if (!$query2) {
     </select>
     <input type="date" placeholder="Date of journey" name="doj" required>
     <button type="submit" >Submit</button>
+    <a href="Home.php"><b>back</b></a>
  </form>      
     
         
