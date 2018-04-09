@@ -105,13 +105,12 @@ include 'query.php';
 			<tr>
 				<th>ID</th>
                                 <th>Date</th>
-				<th>Train no</th>
+				
 				<th>Train Name</th>
 				
 				<th>SourceStation</th>
                                 <th>DestinationStation</th>
-                                <th>ArrivalTime</th>
-                                <th>DepartureTime</th>
+                                
 			</tr>
 		</thead>
 		<tbody>
@@ -124,13 +123,12 @@ include 'query.php';
 			echo '<tr>
 					<td>'.$row['ID'].'</td>
                                         <td>'.$row['Date'].'</td>
-					<td>'.$row['Train no'].'</td>
-                                        <td>'.$row['Train name'].'</td>
+					
+                                        <td>'.$row['TrainName'].'</td>
                                         
                                         <td>'.$row['SourceStation'].'</td>
                                         <td>'.$row['DestinationStation'].'</td>
-                                        <td>'.$row['ArrivalTime'].'</td>
-                                        <td>'.$row['DepartureTime'].'</td>
+                                        
                                           
 					
 			</tr>';

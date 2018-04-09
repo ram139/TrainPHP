@@ -49,13 +49,13 @@ self.close()
     <li>
       <a href="">Wallet</a>
       <ul class="sub">
-        <li><a href="">View</a></li>
-        <li><a href="">Add</a></li>
+        <li><a href="Wallet.php">View</a></li>
+        <li><a href="Addmoney.php">Add</a></li>
         
       </ul>  
     </li>
     <li>
-      <a href="">BookTicket</a>
+      <a href="Book.php">BookTicket</a>
       <ul class="sub">
        <li><a href="History.php" >View History</a></li> 
         

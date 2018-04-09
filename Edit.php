@@ -32,11 +32,7 @@ $row = mysqli_fetch_array($query);
     
     
     
-    <div style="margin-bottom: 10px;margin-top: 20px;">
-        <label><b>Date Of Birth</b></label>
-        <input type="date" placeholder="D.O.B" name="Dob" value=<?php echo $row['DOB']; ?> required>
-    </div>
-
+  
     
     <div style="margin-bottom: 10px;margin-top: 20px;">
         <label><b>Age</b></label>

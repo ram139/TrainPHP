@@ -7,7 +7,7 @@ and open the template in the editor.
 <head>
 <link rel="stylesheet" href="css\Login.css">
 </head>
-<form>
+<form method="get" action="Validation.php">
   
   <div class="imgcontainer">
     <img src="css\Login.jpg" alt="Avatar" class="avatar" >
@@ -16,10 +16,14 @@ and open the template in the editor.
   <div class="container">
       
     
+    <center><input type="text" placeholder="Enter Username" name="uname" required></center>
+
+    
+    <center><input type="password" placeholder="Enter Password" name="pass" required></center>
+
     <div align="center">
-    <button type="reset" onclick="location.href='Login.html'">Retry</button>
-    <br/>
-    <button type="reset" onclick="location.href='Register.html'">Register</button>
+    <button type="submit" >Login</button>
+    <button type="reset" onclick="location.href='Register.html'"> New User</button>
     </div>
   
   </div>

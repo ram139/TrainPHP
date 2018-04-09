@@ -63,10 +63,7 @@ $row = mysqli_fetch_array($query);
                         <td><?php echo $row['Sex']; ?></td>
                       </tr>
                       
-                      <tr>
-                        <td>D.O.B: </td>
-                        <td><?php echo $row['DOB']; ?></td>
-                      </tr>
+                      
                       
                       <tr>
                         <td>Age: </td>
